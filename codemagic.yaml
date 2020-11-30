@@ -1,13 +1,3 @@
-# Check out https://docs.codemagic.io/getting-started/building-a-native-android-app/ for more information
-
-workflows:
-    android-app:
-        name: Android App
-        scripts:
-            - ./gradlew assembleDebug
-        artifacts:
-            - app/build/outputs/**/*.apk
-
 # Check out https://docs.codemagic.io/getting-started/building-a-native-ios-app/ for more information
 # Please review and update values in curly braces
 
